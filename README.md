@@ -40,16 +40,15 @@ a link  to four pre-converted datasets.
 ## How to install?
 
 ```bash
-conda create --name deep-nilmtk
+conda create --name deep-nilmtk python=3.8
 conda activate deep-nilmtk
-# nilmtk can also be installed form source
-conda install -c nilmtk nilmtk
-
-conda install pip
-#clone the deep-nilmtk
-git clone https://github.com/BHafsa/deep-nilmtk-v1.git
+git clone https://github.com/omidreza-amrollahi/deep-nilmtk-v1.git
 cd deep-nilmtk-v1
+pip install -r requirements.txt
+pip install git+https://github.com/omidreza-amrollahi/nilm_metadata.git
+pip insall git+https://github.com/omidreza-amrollahi/nilmtk
 pip install .
+(or pip install git+https://github.com/omidreza-amrollahi/deep-nilmtk-v1.git)
 ```
 
 ## Template starter project
