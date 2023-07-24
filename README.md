@@ -4,8 +4,6 @@
  
 # Deep-NILMtk    
 
-[![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)]()
-
 
  **`Documentation`** |
 ------------------- |
