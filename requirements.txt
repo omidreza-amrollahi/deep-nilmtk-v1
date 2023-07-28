@@ -158,9 +158,9 @@ termcolor==1.1.0
 terminado==0.13.3
 threadpoolctl==3.1.0
 tinycss2==1.1.1
-torch==1.8.1
+torch==1.8.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 torchmetrics==0.8.2
-torchvision==0.9.1
+torchvision==0.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 tornado==6.1
 tqdm==4.46.0
 traitlets==5.2.0
