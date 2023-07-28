@@ -93,7 +93,7 @@ networkx==2.1
 notebook==6.4.11
 notebook-shim==0.1.0
 numexpr==2.8.1
-numpy==1.22.3
+numpy==1.19.5
 oauthlib==3.2.0
 opt-einsum==3.3.0
 optuna==2.10.0
